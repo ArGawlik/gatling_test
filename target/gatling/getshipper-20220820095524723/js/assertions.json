@@ -1,0 +1,10 @@
+{
+  "simulation": "org.example.GetShipper",
+  "simulationId": "getshipper",
+  "start": 1660989324723,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}
