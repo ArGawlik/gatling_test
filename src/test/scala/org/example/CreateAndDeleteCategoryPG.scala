@@ -3,16 +3,17 @@ package org.example
 import io.gatling.core.Predef._
 import io.gatling.http.Predef._
 
-class CreateAndDeleteCategory extends Simulation {
+class CreateAndDeleteCategoryPG extends Simulation {
 
   val httpProtocol = http
-    .baseUrl("https://fast-api-mgr.herokuapp.com")
+    .baseUrl("https://fast-api-mgr-pgsql.herokuapp.com")
+
 
   var createCategory = exec(http("Create new category")
     .post("/categories")
-    .body(StringBody("""{"name":"new_category"}"""))
+    .body(StringBody("""{"CategoryName":"new_category"}"""))
     .check(status.is(201))
-    .check(jsonPath("$.id").saveAs("id")))
+    .check(jsonPath("$.CategoryID").saveAs("id")))
 
   var deleteCategory = exec(
     http("Delete category")

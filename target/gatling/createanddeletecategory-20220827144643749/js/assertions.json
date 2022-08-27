@@ -1,0 +1,10 @@
+{
+  "simulation": "org.example.CreateAndDeleteCategory",
+  "simulationId": "createanddeletecategory",
+  "start": 1661611603749,
+  "description": "",
+  "scenarios": ["Create and delete new category"],
+  "assertions": [
+
+  ]
+}
