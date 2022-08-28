@@ -15,8 +15,11 @@ class SimulationPG extends Simulation{
     .exec(http("GetProduct1")
       .get("/products/123")
     .check(status.in(200, 404)))
-//    .exec(http("GetProduct2")
-//      .get("/products/2"))
 
-  setUp(scn.inject(rampConcurrentUsers(100).to(1000).during(10))).protocols(httpProtocol)
+  val scn2 = scenario("ASDASD")
+    .exec(http("GetProduct2")
+      .get("/products/2"))
+
+//  setUp(scn.inject(rampConcurrentUsers(100).to(1000).during(5))).protocols(httpProtocol)
+  setUp(scn.inject(atOnceUsers(500)), scn2.inject(atOnceUsers(500))).protocols(httpProtocol)
 }

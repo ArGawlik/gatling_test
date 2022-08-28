@@ -1,0 +1,10 @@
+{
+  "simulation": "org.example.GetDifferentEndpointsLongTime",
+  "simulationId": "getdifferentendpointslongtime",
+  "start": 1661691627327,
+  "description": "",
+  "scenarios": ["RequestsInLoop"],
+  "assertions": [
+
+  ]
+}
