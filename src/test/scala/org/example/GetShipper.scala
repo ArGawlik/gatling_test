@@ -9,8 +9,8 @@ import io.gatling.jdbc.Predef._
 class GetShipper extends Simulation {
 
 	val httpProtocol = http
-//		.baseUrl("https://fast-api-mgr-pgsql.herokuapp.com")
-		.baseUrl("https://fast-api-mgr.herokuapp.com")
+		.baseUrl("https://fast-api-mgr-pgsql.herokuapp.com")
+//		.baseUrl("https://fast-api-mgr.herokuapp.com")
 
 
 	val scn = scenario("RecordedSimulation")
@@ -22,7 +22,7 @@ class GetShipper extends Simulation {
 			.get("/shippers/423")
 			.check(status.is(404)))
 
-	setUp(scn.inject(atOnceUsers(2000)).protocols(httpProtocol))
+	setUp(scn.inject(rampUsers(2000).during(10)).protocols(httpProtocol))
 
 
 	//	setUp(scn.inject(rampConcurrentUsers(100).to(1000).during(10))).protocols(httpProtocol)

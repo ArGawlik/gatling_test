@@ -1,0 +1,10 @@
+{
+  "simulation": "org.example.GetDifferentEndpointsToFirstFail",
+  "simulationId": "getdifferentendpointstofirstfail",
+  "start": 1662065214882,
+  "description": "",
+  "scenarios": ["asd"],
+  "assertions": [
+
+  ]
+}

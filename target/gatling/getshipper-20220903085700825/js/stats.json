@@ -1,0 +1,317 @@
+{
+  "type": "GROUP",
+"name": "Global Information",
+"path": "",
+"pathFormatted": "group_missing-name-b06d1",
+"stats": {
+    "name": "Global Information",
+    "numberOfRequests": {
+        "total": 6000,
+        "ok": 5941,
+        "ko": 59
+    },
+    "minResponseTime": {
+        "total": 45,
+        "ok": 45,
+        "ko": 10461
+    },
+    "maxResponseTime": {
+        "total": 21597,
+        "ok": 21597,
+        "ko": 18171
+    },
+    "meanResponseTime": {
+        "total": 3400,
+        "ok": 3291,
+        "ko": 14379
+    },
+    "standardDeviation": {
+        "total": 5242,
+        "ok": 5143,
+        "ko": 3038
+    },
+    "percentiles1": {
+        "total": 297,
+        "ok": 289,
+        "ko": 12756
+    },
+    "percentiles2": {
+        "total": 5266,
+        "ok": 4918,
+        "ko": 18015
+    },
+    "percentiles3": {
+        "total": 15252,
+        "ok": 15084,
+        "ko": 18132
+    },
+    "percentiles4": {
+        "total": 18313,
+        "ok": 18332,
+        "ko": 18150
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 3650,
+    "percentage": 61
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 188,
+    "percentage": 3
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 2103,
+    "percentage": 35
+},
+    "group4": {
+    "name": "failed",
+    "count": 59,
+    "percentage": 1
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 260.8695652173913,
+        "ok": 258.30434782608694,
+        "ko": 2.5652173913043477
+    }
+},
+"contents": {
+"req_getshipper1-4f703": {
+        "type": "REQUEST",
+        "name": "GetShipper1",
+"path": "GetShipper1",
+"pathFormatted": "req_getshipper1-4f703",
+"stats": {
+    "name": "GetShipper1",
+    "numberOfRequests": {
+        "total": 2000,
+        "ok": 1941,
+        "ko": 59
+    },
+    "minResponseTime": {
+        "total": 1363,
+        "ok": 1363,
+        "ko": 10461
+    },
+    "maxResponseTime": {
+        "total": 21597,
+        "ok": 21597,
+        "ko": 18171
+    },
+    "meanResponseTime": {
+        "total": 9547,
+        "ok": 9400,
+        "ko": 14379
+    },
+    "standardDeviation": {
+        "total": 5029,
+        "ok": 5004,
+        "ko": 3038
+    },
+    "percentiles1": {
+        "total": 8541,
+        "ok": 8274,
+        "ko": 12756
+    },
+    "percentiles2": {
+        "total": 13824,
+        "ok": 13751,
+        "ko": 18015
+    },
+    "percentiles3": {
+        "total": 18015,
+        "ok": 17959,
+        "ko": 18132
+    },
+    "percentiles4": {
+        "total": 20500,
+        "ok": 20744,
+        "ko": 18150
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 0,
+    "percentage": 0
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 1941,
+    "percentage": 97
+},
+    "group4": {
+    "name": "failed",
+    "count": 59,
+    "percentage": 3
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 86.95652173913044,
+        "ok": 84.3913043478261,
+        "ko": 2.5652173913043477
+    }
+}
+    },"req_getshipper2-9f8c4": {
+        "type": "REQUEST",
+        "name": "GetShipper2",
+"path": "GetShipper2",
+"pathFormatted": "req_getshipper2-9f8c4",
+"stats": {
+    "name": "GetShipper2",
+    "numberOfRequests": {
+        "total": 2000,
+        "ok": 2000,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 46,
+        "ok": 46,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 8210,
+        "ok": 8210,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 380,
+        "ok": 380,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 569,
+        "ok": 569,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 213,
+        "ok": 213,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 328,
+        "ok": 328,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 1320,
+        "ok": 1320,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 3002,
+        "ok": 3002,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1780,
+    "percentage": 89
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 104,
+    "percentage": 5
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 116,
+    "percentage": 6
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 86.95652173913044,
+        "ok": 86.95652173913044,
+        "ko": 0
+    }
+}
+    },"req_getshipper---er-66745": {
+        "type": "REQUEST",
+        "name": "GetShipper - Error",
+"path": "GetShipper - Error",
+"pathFormatted": "req_getshipper---er-66745",
+"stats": {
+    "name": "GetShipper - Error",
+    "numberOfRequests": {
+        "total": 2000,
+        "ok": 2000,
+        "ko": 0
+    },
+    "minResponseTime": {
+        "total": 45,
+        "ok": 45,
+        "ko": 0
+    },
+    "maxResponseTime": {
+        "total": 7244,
+        "ok": 7244,
+        "ko": 0
+    },
+    "meanResponseTime": {
+        "total": 272,
+        "ok": 272,
+        "ko": 0
+    },
+    "standardDeviation": {
+        "total": 353,
+        "ok": 353,
+        "ko": 0
+    },
+    "percentiles1": {
+        "total": 191,
+        "ok": 191,
+        "ko": 0
+    },
+    "percentiles2": {
+        "total": 268,
+        "ok": 269,
+        "ko": 0
+    },
+    "percentiles3": {
+        "total": 885,
+        "ok": 885,
+        "ko": 0
+    },
+    "percentiles4": {
+        "total": 1622,
+        "ok": 1622,
+        "ko": 0
+    },
+    "group1": {
+    "name": "t < 800 ms",
+    "count": 1870,
+    "percentage": 94
+},
+    "group2": {
+    "name": "800 ms < t < 1200 ms",
+    "count": 84,
+    "percentage": 4
+},
+    "group3": {
+    "name": "t > 1200 ms",
+    "count": 46,
+    "percentage": 2
+},
+    "group4": {
+    "name": "failed",
+    "count": 0,
+    "percentage": 0
+},
+    "meanNumberOfRequestsPerSecond": {
+        "total": 86.95652173913044,
+        "ok": 86.95652173913044,
+        "ko": 0
+    }
+}
+    }
+}
+
+}

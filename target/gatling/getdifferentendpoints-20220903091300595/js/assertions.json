@@ -1,0 +1,10 @@
+{
+  "simulation": "org.example.GetDifferentEndpoints",
+  "simulationId": "getdifferentendpoints",
+  "start": 1662196380595,
+  "description": "",
+  "scenarios": ["RecordedSimulation"],
+  "assertions": [
+
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "simulation": "org.example.PeekTest",
+  "simulationId": "peektest",
+  "start": 1662293334820,
+  "description": "",
+  "scenarios": ["qwe"],
+  "assertions": [
+
+  ]
+}
